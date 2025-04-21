@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../app/features/cart/cartSlice";
-
+const usdToInr = 83; // Example rate
 const ProductCard = ({ title, productItem }) => {
   const dispatch = useDispatch();
   const router = useNavigate();
@@ -39,7 +39,9 @@ const ProductCard = ({ title, productItem }) => {
           <i className="fa fa-star"></i>
         </div>
         <div className="price">
-          <h4>${productItem.price}</h4>
+       
+
+<h4>₹{(productItem.price * usdToInr).toLocaleString("en-IN")}</h4>
           <button
             aria-label="Add"
             type="submit"
