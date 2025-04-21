@@ -37,25 +37,25 @@ export const SliderData = [
   {
       id: 1,
       title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      desc: "Shop from our elite range of products now!",
       cover: sofaSlide,
   },
   {
       id: 2,
       title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      desc: "Shop from our elite range of products now!",
       cover: phone08,
   },
   {
       id: 3,
       title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      desc: "Shop from our elite range of products now!",
       cover: wireless01,
   },
   {
       id: 4,
       title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      desc: "Shop from our elite range of products now!",
       cover: watchSlide,
   },
 ];
@@ -64,25 +64,25 @@ export const serviceData = [
   {
     icon: <ion-icon name="car"></ion-icon>,
     title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle: "Only availble for premium users",
     bg: "#fdefe6",
   },
   {
     icon: <ion-icon name="card"></ion-icon>,
     title: "Safe Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle: "Protected by 256-bit SSL",
     bg: "#ceebe9",
   },
   {
     icon: <ion-icon name="shield-half-outline"></ion-icon>,
     title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle: "Our own payment gateway",
     bg: "#e2f2b2",
   },
   {
     icon: <ion-icon name="headset"></ion-icon>,
     title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle: "Return within 30 days",
     bg: "#d6e5fb",
   },
 ];
