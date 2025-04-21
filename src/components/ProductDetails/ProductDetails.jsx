@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import { addToCart } from "../../app/features/cart/cartSlice";
 import "./product-details.css";
-
+const usdToInr = 83; // Example rate
 const ProductDetails = ({ selectedProduct }) => {
   const dispatch = useDispatch();
 
@@ -37,7 +37,7 @@ const ProductDetails = ({ selectedProduct }) => {
               <span>{selectedProduct?.avgRating} ratings</span>
             </div>
             <div className="info">
-              <span className="price">${selectedProduct?.price}</span>
+              <span className="price">₹{(productItem.price * usdToInr).toLocaleString("en-IN")}</span>
               <span>category:{selectedProduct?.category}</span>
             </div>
             <p>{selectedProduct?.shortDesc}</p>
